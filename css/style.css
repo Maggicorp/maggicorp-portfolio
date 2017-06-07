@@ -18,4 +18,23 @@ box-shadow: 5px 5px 5px gray;
 .portfolio {
 	padding-left: 30px;
 	padding-right: 30px;
+	width: 90%;
+}
+
+.about {
+	/*border: .5px solid gray;
+	box-shadow: 5px 5px 5px gray;*/
+	width: 85%;
+	margin: 5px auto;
+	padding: 15px;
+}
+
+.color {
+/*background-color: #deeff5;*/
+/*background-color: #8A9E82;*/
+background-color: darkseagreen;
+}
+
+.white {
+	background-color: white;
 }
