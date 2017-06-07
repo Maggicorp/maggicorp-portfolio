@@ -2,3 +2,20 @@ img {
 border: 1px gray solid;
 box-shadow: 5px 5px 5px gray;
 }
+
+.jumbotron {
+	background-image: url('../images/M3copy.jpg');
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.title {
+	max-width: 70%;
+	padding-left: 150px;
+}
+
+.portfolio {
+	padding-left: 30px;
+	padding-right: 30px;
+}
