@@ -4,7 +4,7 @@ box-shadow: 5px 5px 5px gray;
 }
 
 .jumbotron {
-	background-image: url('../images/M3copy.jpg');
+	background-image: url('../images/M1.jpg');
 	background-position: left;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -12,7 +12,7 @@ box-shadow: 5px 5px 5px gray;
 
 .title {
 	max-width: 70%;
-	padding-left: 150px;
+	padding-left: 160px;
 }
 
 .portfolio {
