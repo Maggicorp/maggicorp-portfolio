@@ -3,6 +3,10 @@ border: 1px gray solid;
 box-shadow: 5px 5px 5px gray;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .jumbotron {
 	background-image: url('../images/M1.jpg');
 	background-position: left;
@@ -16,15 +20,10 @@ box-shadow: 5px 5px 5px gray;
 	padding: 0 10px;
 }
 
-.btn {
-
-}
-
-
-
 .title {
 	max-width: 70%;
-	padding-left: 160px;
+	padding-left: 180px;
+	text-align: left;
 }
 
 .portfolio {
@@ -41,10 +40,18 @@ box-shadow: 5px 5px 5px gray;
 	padding: 15px;
 }
 
+.project {
+	/*border: .5px solid gray;
+	box-shadow: 5px 5px 5px gray;*/
+	width: 80%;
+	margin: 5px auto;
+	padding: 15px;
+}
 .color {
 /*background-color: #deeff5;*/
 /*background-color: #8A9E82;*/
-background-color: darkseagreen;
+/*background-color: #D8EDB5;*/
+background-color: rgba(216,237,181, .5)
 }
 
 .white {
