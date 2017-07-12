@@ -2,16 +2,24 @@ img {
 border: 1px gray solid;
 box-shadow: 5px 5px 5px gray;
 }
-
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #173e43;
+	/*background-color: #7d4627;*/
+}
+
+.firstBlock {
+	background-color: #dddfd4;
+	/*background-color: #edd9c0;*/
 }
 
 .jumbotron {
-	background-image: url('../images/M1.jpg');
+	background-image: url('../images/circleMaggie.png');
 	background-position: left;
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: #3fb0ac;
+	/*background-color: #a8b6bf;*/
 }
 
 .buttons {
@@ -22,7 +30,7 @@ body {
 
 .title {
 	max-width: 70%;
-	padding-left: 180px;
+	padding-left: 30%;
 	text-align: left;
 }
 
@@ -51,7 +59,31 @@ body {
 /*background-color: #deeff5;*/
 /*background-color: #8A9E82;*/
 /*background-color: #D8EDB5;*/
-background-color: rgba(216,237,181, .5)
+background-color: #fae596;
+/*background-color: #c9d8c5;*/
+/*background-color: rgba(216,237,181, .5)*/
+}
+
+ hr {
+	 height: 30px;
+ border-style: solid;
+ border-color: #3fb0ac;
+ border-width: 1px 0 0 0;
+ border-radius: 20px;
+ }
+
+ hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #3fb0ac;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.well {
 }
 
 .white {
